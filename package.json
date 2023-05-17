@@ -1,0 +1,16 @@
+{
+  "name": "@nx-remix/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "@nx/js": "16.2.1",
+    "@nx/remix": "^16.1.2",
+    "@nx/workspace": "16.2.1",
+    "nx": "16.2.1",
+    "prettier": "^2.6.2",
+    "typescript": "~5.0.2"
+  },
+  "dependencies": {}
+}
