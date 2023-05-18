@@ -1,0 +1,16 @@
+{
+  "name": "lib-58",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/lib-58/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lib-58/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

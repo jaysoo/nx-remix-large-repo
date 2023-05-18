@@ -1,0 +1,16 @@
+{
+  "name": "lib-513",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/lib-513/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lib-513/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,16 @@
+{
+  "name": "lib-774",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/lib-774/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lib-774/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

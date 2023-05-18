@@ -1,0 +1,16 @@
+{
+  "name": "lib-178",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/lib-178/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lib-178/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,16 @@
+{
+  "name": "lib-943",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/lib-943/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lib-943/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

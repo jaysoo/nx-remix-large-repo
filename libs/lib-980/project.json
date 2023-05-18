@@ -1,0 +1,16 @@
+{
+  "name": "lib-980",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/lib-980/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lib-980/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

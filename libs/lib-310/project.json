@@ -1,0 +1,16 @@
+{
+  "name": "lib-310",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/lib-310/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lib-310/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,16 @@
+{
+  "name": "lib-396",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/lib-396/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lib-396/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

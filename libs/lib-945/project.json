@@ -1,0 +1,16 @@
+{
+  "name": "lib-945",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/lib-945/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lib-945/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

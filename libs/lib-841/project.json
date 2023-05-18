@@ -1,0 +1,16 @@
+{
+  "name": "lib-841",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/lib-841/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lib-841/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

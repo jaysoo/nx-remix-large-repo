@@ -1,0 +1,16 @@
+{
+  "name": "lib-124",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/lib-124/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lib-124/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

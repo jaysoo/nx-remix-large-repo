@@ -1,0 +1,16 @@
+{
+  "name": "lib-864",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/lib-864/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lib-864/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

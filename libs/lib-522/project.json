@@ -1,0 +1,16 @@
+{
+  "name": "lib-522",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/lib-522/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lib-522/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

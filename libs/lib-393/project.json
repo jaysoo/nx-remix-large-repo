@@ -1,0 +1,16 @@
+{
+  "name": "lib-393",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/lib-393/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lib-393/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,16 @@
+{
+  "name": "lib-528",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/lib-528/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lib-528/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,16 @@
+{
+  "name": "lib-714",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/lib-714/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lib-714/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

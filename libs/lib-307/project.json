@@ -1,0 +1,16 @@
+{
+  "name": "lib-307",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/lib-307/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lib-307/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,16 @@
+{
+  "name": "lib-441",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/lib-441/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lib-441/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

@@ -3,5 +3,19 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/my-app",
   "projectType": "application",
-  "tags": []
+  "tags": [],
+  "targets": {
+    "serve": {
+      "command": "remix dev",
+      "options": {
+        "cwd": "apps/my-app"
+      }
+    },
+    "build": {
+      "command": "remix build",
+      "options": {
+        "cwd": "apps/my-app"
+      }
+    }
+  }
 }

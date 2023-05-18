@@ -1,0 +1,16 @@
+{
+  "name": "lib-119",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/lib-119/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/lib-119/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}
